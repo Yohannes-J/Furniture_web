@@ -47,7 +47,7 @@ const PlaceOrder = () => {
       let response = await axios.post(`${url}/api/order/place`, orderData, { headers: { token } });
       if (response.data.success) {
         alert('Order successfully placed!');
-        navigate('/myorder'); // Redirect to the MyOrder page
+        navigate('/myorders'); // Redirect to the MyOrder page
       } else {
         alert('Error placing order. Please try again.');
       }
