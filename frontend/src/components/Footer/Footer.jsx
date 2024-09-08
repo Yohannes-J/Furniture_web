@@ -27,9 +27,10 @@ const Footer = () => {
         </div>
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
+          <h2>Account Number 1000565188244</h2>
             <ul>
               <li>+251-943-82-56-49</li>
-              <li>meba122@gmail.com</li>
+              <li>mebra5649@gmail.com</li>
             </ul>
         </div>
       </div>
