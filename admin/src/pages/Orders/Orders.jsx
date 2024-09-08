@@ -62,7 +62,7 @@ useEffect(()=>{
             <p>Items : {order.items.length}</p>
             <p>${order.amount}</p>
             <select onChange={(event)=>statusHandler(event,order._id)} value={order.status}>
-              <option value="Food Processing">Food Processing</option>
+              <option value="Product Processing">Product Processing</option>
               <option value="Out for delivery">Out for delivery</option>
               <option value="Delivered">Delivered</option>
             </select>
